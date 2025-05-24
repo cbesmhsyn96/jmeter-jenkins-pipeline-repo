@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 100, 0, 0.0, 306.1000000000001, 248, 1055, 265.0, 331.40000000000003, 841.3999999999942, 1054.2999999999997, 13.014055179593962, 61.93304980316241, 6.738967538066111], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Open opencart.abstracta.us HomePage", 100, 0, 0.0, 306.1000000000001, 248, 1055, 265.0, 331.40000000000003, 841.3999999999942, 1054.2999999999997, 13.014055179593962, 61.93304980316241, 6.738967538066111], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 100, 0, 0.0, 303.1799999999999, 249, 1195, 268.0, 285.9, 860.5499999999934, 1192.3899999999987, 13.152702880441932, 62.59286527522031, 6.8107624046429045], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Open opencart.abstracta.us HomePage", 100, 0, 0.0, 303.1799999999999, 249, 1195, 268.0, 285.9, 860.5499999999934, 1192.3899999999987, 13.152702880441932, 62.59286527522031, 6.8107624046429045], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
