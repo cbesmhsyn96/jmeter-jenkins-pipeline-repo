@@ -23,17 +23,16 @@ pipeline {
         stage('Run JMeter Test') {
             steps {
                 sh '''
-                    mkdir -p results
-                    rm -rf results/html-report
-                    rm -rf results/results.jtl
-                    jmeter -n -t jenkinsExecutionFiles/jenkinsIntegrationTest.jmx -l results/results.jtl -e -o results/html-report
-                    echo "Listing results/html-report directory:"
-                    ls -l results/html-report
-                    echo "Checking if index.html exists:"
-                    ls -l results/html-report/index.html
-                    echo "First 20 lines of results/results.jtl:"
-                    head -20 results/results.jtl
-                '''
+                rm -rf html-report
+                rm -f result.jtl
+                jmeter -n -t jenkinsIntegrationTest.jmx -l result.jtl -j jmeter.log -e -o html-report
+                echo "Listing html-report directory:"
+                ls -l html-report
+                echo "Checking if index.html exists:"
+                ls -l html-report/index.html || echo "index.html not found!"
+                echo "First 20 lines of result.jtl:"
+                head -20 result.jtl || echo "result.jtl not found!"
+            '''
             }
         }
 
