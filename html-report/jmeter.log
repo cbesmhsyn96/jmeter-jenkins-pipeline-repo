@@ -1,0 +1,20 @@
+2025-05-24 12:06:03,284 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-05-24 12:06:03,295 INFO o.a.j.JMeter: Loading user properties from: /Users/huseyinakcan/Downloads/apache-jmeter-5.6.3/bin/user.properties
+2025-05-24 12:06:03,295 INFO o.a.j.JMeter: Loading system properties from: /Users/huseyinakcan/Downloads/apache-jmeter-5.6.3/bin/system.properties
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: Version 5.6.3
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: java.version=22.0.1
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: os.arch=aarch64
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: os.version=15.2
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: java.awt.headless=null
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-05-24 12:06:03,298 INFO o.a.j.JMeter: Available Processors =8
+2025-05-24 12:06:03,302 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-05-24 12:06:03,302 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-05-24 12:06:03,302 INFO o.a.j.JMeter: JMeterHome=/Users/huseyinakcan/Downloads/apache-jmeter-5.6.3
+2025-05-24 12:06:03,303 INFO o.a.j.JMeter: user.dir  =/Users/huseyinakcan/Desktop/jenkinsPipeline_Dir_JMXs/html-report
+2025-05-24 12:06:03,303 INFO o.a.j.JMeter: PWD       =/Users/huseyinakcan/Desktop/jenkinsPipeline_Dir_JMXs/html-report
+2025-05-24 12:06:03,304 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: machine.local FullName: localhost
