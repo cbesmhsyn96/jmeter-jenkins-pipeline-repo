@@ -37,24 +37,23 @@ pipeline {
         }
 
         stage('Publish HTML Report') {
-    steps {
-        publishHTML(target: [
-            allowMissing         : false,
-            reportName           : 'JMeterTestReport',
-            reportDir            : 'html-report',
-            reportFiles          : 'index.html',
-            keepAll              : true,
-            alwaysLinkToLastBuild: true
-        ])
-    }
-}
-
+            steps {
+                publishHTML(target: [
+                    allowMissing         : false,
+                    reportName           : 'JMeterTestReport',
+                    reportDir            : 'html-report',
+                    reportFiles          : 'index.html',
+                    keepAll              : true,
+                    alwaysLinkToLastBuild: true
+                ])
+            }
+        }
     }
 
     post {
         always {
-            // Raporu Jenkins'e arşivle
-            archiveArtifacts artifacts: 'results/html-report/**', allowEmptyArchive: true
+            // Raporu doğru klasörden arşivle
+            archiveArtifacts artifacts: 'html-report/**', allowEmptyArchive: true
         }
     }
 }
