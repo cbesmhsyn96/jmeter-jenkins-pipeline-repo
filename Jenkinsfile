@@ -26,12 +26,6 @@ pipeline {
                 rm -rf html-report
                 rm -f result.jtl
                 jmeter -n -t jenkinsIntegrationTest.jmx -l result.jtl -j jmeter.log -e -o html-report
-                echo "Listing html-report directory:"
-                ls -l html-report
-                echo "Checking if index.html exists:"
-                ls -l html-report/index.html || echo "index.html not found!"
-                echo "First 20 lines of result.jtl:"
-                head -20 result.jtl || echo "result.jtl not found!"
             '''
             }
         }
